@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Steam - Projeto Ágil</title>
+<meta charset="pt-br">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/800px-Steam_icon_logo.svg.png" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>Steam</b></h4>
+    <p class="w3-text-grey">Atividade Processo de software</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>TRABALHO</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>SOBRE</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTATO</a>
+  </div>
+
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>Projeto Ágil</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">FILTRO:</span> 
+      <button class="w3-button w3-black">EPICS</button>
+      <a href="features.html"><button class="w3-button w3-white"></i>FEATURES</button></a>
+      <a href="userStories.html"><button class="w3-button w3-white w3-hide-small"></i>USER STORIES</button></a>
+    </div>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://img.olhardigital.com.br/wp-content/uploads/2019/10/20191031172016.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Gestão e Biblioteca</b></p>
+        <p>Biblioteca de jogos, gerenciamento de instalações e organizações de jogos.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/steamworks_docs/brazilian/communityhub_header_1.JPG" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Interação social e comunidade</b></p>
+        <p>Funcionalidades que promovem interação sicial e a comunidade entre os jogadores.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="https://blog.e-prepag.com/wp-content/uploads/2016/07/Slide_4_0-1024x530.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Transações e compras</b></p>
+        <p>Facilitar a compra de jogos, transações financeiras e gerenciamento de contas.</p>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Images of Me -->
+  <div class="w3-row-padding w3-padding-16" id="about">
+    <div class="w3-col m6">
+      <img src="https://pdi.atitus.edu.br/wp-content/uploads/2022/11/logo_bl_p.png" alt="Me" style="width:40%">
+    </div>
+
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>Sobre o Trabalho</b></h4>
+    <p>Trabalho de Engenharia de software sobre processo de software realizado no segundo semestre do curso de Ciência da Computação.</p>
+    <hr>
+    
+    
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Contate-nos</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Rafael Augusto Klein</p>
+        <p>1134873@atitus.edu.br</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Alisson Bosa</p>
+        <p>1134723@atitus.edu.br</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Gabriel Martinelli</p>
+        <p>1135051@atitus.edu.br</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Vitor Augusto</p>
+        <p>1134821@atitus.edu.br</p>
+      </div>
+    </div>
+    
+
+  
+  
+  <div class="w3-black w3-center w3-padding-24">Site Atitus: <a href="https://www.atitus.edu.br/" title="W3.CSS" target="_blank" class="w3-hover-opacity">atitus</a></div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
